@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner in = new Scanner (System.in);
+        int age,ano,mes,dia ;
+        age =in.nextInt();
+        ano=age/365;
+        mes=(age-ano*365)/30;
+        dia=(age-ano*365)-mes*30;
+        System.out.println(ano+" ano(s)");
+        System.out.println(mes +" mes(es)");
+        System.out.println(dia+" dia(s)");
+    }
+    
+}
