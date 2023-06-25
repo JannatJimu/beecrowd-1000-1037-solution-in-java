@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner in = new Scanner(System.in);
+        int h,s;
+        h=in.nextInt();
+        s=in.nextInt();
+        double need=(h*s)/12.0;
+        System.out.printf("%.3f\n",need);
+    }
+    
+}
