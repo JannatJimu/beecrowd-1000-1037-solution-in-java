@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner in = new Scanner (System.in);
+        float N;
+        N=in.nextFloat();
+        if(N>=0 &&N<=25.0000)
+        {
+            System.out.println("Intervalo [0,25]");
+        }
+        else if (N >= 25.00001 && N <= 50.00000)
+        {
+            System.out.println("Intervalo (25,50]");  
+        }
+        else if(N>=50.00001 && N<=75.0000)
+        {
+            System.out.println("Intervalo (50,75]");
+        }
+        else if(N>=75.00001 && N <=100.00000)
+        {
+            System.out.println("Intervalo (75,100]"); 
+        }
+        else 
+        {
+            System.out.println("Fora de intervalo");
+        }
+        
+    }
+    
+}
