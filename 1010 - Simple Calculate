@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        // TODO code application logic here
+       Scanner in = new Scanner (System.in);
+       int a,b;
+       double c;
+       a=in.nextInt();
+       b=in.nextInt();
+       c=in.nextDouble();
+       double res=b*c;
+       int A,B;
+       double C;
+       A=in.nextInt();
+       B=in.nextInt();
+       C=in.nextDouble();
+       double Res=B*C;
+       double Result =res+Res;
+       System.out.printf("VALOR A PAGAR: R$ %.2f\n",Result);
+       
+    }
+    
+}
