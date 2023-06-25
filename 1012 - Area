@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner in = new Scanner(System.in);
+        double A,B,C;
+        A=in.nextDouble();
+        B=in.nextDouble();
+        C=in.nextDouble();
+        double TRIANGULO = (1.0/2)*A*C;
+        System.out.printf("TRIANGULO: %.3f\n",TRIANGULO);
+        double Circle=3.14159*C*C;
+        System.out.printf("CIRCULO: %.3f\n",Circle);
+        double TRAPEZIO=((A+B)/2)*C;
+        System.out.printf("TRAPEZIO: %.3f\n",TRAPEZIO);
+        double QUADRADO=B*B;
+        System.out.printf("QUADRADO: %.3f\n",QUADRADO);
+        double RETANGULO=A*B;
+        System.out.printf("RETANGULO: %.3f\n", RETANGULO);
+    }
+}
